@@ -20,8 +20,6 @@ document.getElementById('donate')
     .addEventListener('click', function () {
         const historyContainer = document.getElementById('history-container');
         const donateContainer = document.getElementById('donate-container');
-
-
         
         donateContainer.classList.remove('hidden');
         historyContainer.classList.add('hidden');
@@ -116,7 +114,6 @@ document.getElementById('btn-donate1')
 
         `
         history.appendChild(div)
-
 
         my_modal_5.showModal()
     })
